@@ -1,0 +1,279 @@
+/* Team section in white-screen */
+.team-section {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  gap: 40px;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+.team-image {
+  max-width: 100%;
+  height: auto;
+  width: 700px;
+}
+
+.team-content {
+  flex: 1;
+  max-width: 500px;
+  padding-top: 160px;
+}
+
+@media (max-width: 1024px) {
+  .team-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .team-image {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .team-content {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-image {
+    max-width: 100%;
+  }
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.about-footer {
+  background-color: #0a1929;
+  color: #fff;
+  padding: 80px 20px 30px;
+}
+
+/* Hero button container styles */
+.hero-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.hero-button-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-button-full {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* Override the App.css mobile button styles for hero section */
+@media (max-width: 768px) {
+  .hero-button-row .btn {
+    width: auto !important;
+    flex: 0 0 auto !important;
+  }
+
+  .hero-button-full {
+    width: 100% !important;
+    max-width: 200px !important;
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-button-container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .hero-button-row {
+    flex-wrap: nowrap;
+  }
+
+  .hero-button-full {
+    width: auto;
+    max-width: none;
+  }
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #fff;
+}
+
+.footer-tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-column h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a8cc;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-column a {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: #00a8cc;
+}
+
+.footer-column p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about-footer {
+    padding: 60px 20px 30px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .footer-column:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Hero heading styles */
+.hero-heading {
+  font-family: 'monseratt', serif;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
+
+.hero-line-2 {
+  display: inline;
+}
+
+.hero-line-break {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 52px;
+    line-height: 1.4;
+  }
+  
+  .hero-line-1,
+  .hero-line-2 {
+    display: block;
+  }
+  
+  .hero-line-1 {
+    line-height: 1.2;
+    margin-bottom: 0.1em;
+  }
+  
+  .hero-line-break {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 36px;
+  }
+}
+
+/* White screen section mobile adjustments */
+@media (max-width: 768px) {
+  .white-screen .white-screen-content > p:first-of-type {
+    font-size: 32px !important;
+    margin-top: 40px !important;
+  }
+
+  .white-screen .white-screen-content > div:has(style) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0 !important;
+    gap: 30px;
+  }
+
+  .white-screen .white-screen-content > div > div {
+    padding-top: 0 !important;
+  }
+
+  .section-divider {
+    width: 100% !important;
+    max-width: 200px;
+    margin: 30px auto !important;
+  }
+}
