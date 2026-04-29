@@ -91,26 +91,26 @@ function Services() {
     }
   ];
 
-  const detailedServices = [
-    {
-      title: 'General Dentistry',
-      description: 'Our general dentistry services form the foundation of your oral health. We provide comprehensive examinations, professional cleanings, and preventive treatments to keep your smile healthy. Our team uses the latest technology to detect issues early and provide minimally invasive solutions.',
-      image: 'https://pixabay.com/get/g078f46809f3bde83ee14f98bfcc660a509cfa44ae3459c4be8ff591fbc23645b1941d5a4fc83780ba6afd715ff07d4bb_1920.jpg',
-      imagePosition: 'left'
-    },
-    {
-      title: 'Cosmetic Dentistry',
-      description: 'Transform your smile with our cosmetic dentistry services. From professional teeth whitening to custom porcelain veneers, we can correct discoloration, chips, gaps, and misalignment. Our smile design process considers your facial features and goals to create a natural, beautiful result.',
-      image: 'https://pixabay.com/get/g9682369f7384415cbb97c0f3add712dfbeb5ed3be78b2f72f21b42546a2f88286203c3a6d9170e8f8e0ad6609a9c531738a971722503c80d1cb2abf766d320b3_1920.jpg',
-      imagePosition: 'right'
-    },
-    {
-      title: 'Dental Implants',
-      description: 'Replace missing teeth with dental implants that look and function like natural teeth. Our implant solutions include single tooth replacements, multi-tooth bridges, and full-arch restorations. Using 3D planning and guided surgery, we ensure precise placement and optimal outcomes.',
-      image: 'https://pixabay.com/get/g546860a67094503ddf90ea430f3685ec9f7330b2258402a0b627c6575897d04b5bb76e928f08ab4ad184c1ac1671ac21_1920.jpg',
-      imagePosition: 'left'
-    }
-  ];
+const detailedServices = [
+     {
+       title: 'General Dentistry',
+       description: 'Our general dentistry services form the foundation of your oral health. We provide comprehensive examinations, professional cleanings, and preventive treatments to keep your smile healthy. Our team uses the latest technology to detect issues early and provide minimally invasive solutions.',
+       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGFsfGVufDB8fHx8fDA%3D',
+       imagePosition: 'left'
+     },
+     {
+       title: 'Cosmetic Dentistry',
+       description: 'Transform your smile with our cosmetic dentistry services. From professional teeth whitening to custom porcelain veneers, we can correct discoloration, chips, gaps, and misalignment. Our smile design process considers your facial features and goals to create a natural, beautiful result.',
+       image: 'https://images.unsplash.com/photo-1585317362154-03a2b6cf59f3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvc21ldGljfGVufDB8fHx8fDA%3D',
+       imagePosition: 'right'
+     },
+     {
+       title: 'Dental Implants',
+       description: 'Replace missing teeth with dental implants that look and function like natural teeth. Our implant solutions include single tooth replacements, multi-tooth bridges, and full-arch restorations. Using 3D planning and guided surgery, we ensure precise placement and optimal outcomes.',
+       image: 'https://images.unsplash.com/photo-1594736797933-d03d9ba24f2e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1wbGFudHxlfDB8fHx8fDA%3D',
+       imagePosition: 'left'
+     }
+   ];
 
   const processSteps = [
     {

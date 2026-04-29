@@ -36,20 +36,20 @@
 }
 
 .services-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://pixabay.com/get/g7308b31c454acec53f4832536f1e294e4dfa362302456d0032174a17abadfeac20210556a4c95823f54b9e47bfe93e92_1920.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(0.6);
-  transform: scale(1.1);
-  animation: heroZoom 20s ease-in-out infinite alternate;
-}
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url('https://images.unsplash.com/photo-1576091160397-7eb28e3b9d1d?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGFsfGVufDB8fHx8fDA%3D');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   filter: brightness(0.6);
+   transform: scale(1.1);
+   animation: heroZoom 20s ease-in-out infinite alternate;
+ }
 
 @keyframes heroZoom {
   0% {
