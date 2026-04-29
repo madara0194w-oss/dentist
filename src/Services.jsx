@@ -91,26 +91,26 @@ function Services() {
     }
   ];
 
-const detailedServices = [
-     {
-       title: 'General Dentistry',
-       description: 'Our general dentistry services form the foundation of your oral health. We provide comprehensive examinations, professional cleanings, and preventive treatments to keep your smile healthy. Our team uses the latest technology to detect issues early and provide minimally invasive solutions.',
-       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGFsfGVufDB8fHx8fDA%3D',
-       imagePosition: 'left'
-     },
-     {
-       title: 'Cosmetic Dentistry',
-       description: 'Transform your smile with our cosmetic dentistry services. From professional teeth whitening to custom porcelain veneers, we can correct discoloration, chips, gaps, and misalignment. Our smile design process considers your facial features and goals to create a natural, beautiful result.',
-       image: 'https://images.unsplash.com/photo-1585317362154-03a2b6cf59f3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvc21ldGljfGVufDB8fHx8fDA%3D',
-       imagePosition: 'right'
-     },
-     {
-       title: 'Dental Implants',
-       description: 'Replace missing teeth with dental implants that look and function like natural teeth. Our implant solutions include single tooth replacements, multi-tooth bridges, and full-arch restorations. Using 3D planning and guided surgery, we ensure precise placement and optimal outcomes.',
-       image: 'https://images.unsplash.com/photo-1594736797933-d03d9ba24f2e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1wbGFudHxlfDB8fHx8fDA%3D',
-       imagePosition: 'left'
-     }
-   ];
+  const detailedServices = [
+    {
+      title: 'General Dentistry',
+      description: 'Our general dentistry services form the foundation of your oral health. We provide comprehensive examinations, professional cleanings, and preventive treatments to keep your smile healthy. Our team uses the latest technology to detect issues early and provide minimally invasive solutions.',
+      image: 'https://images.pexels.com/photos/6627471/pexels-photo-6627471.jpeg',
+      imagePosition: 'left'
+    },
+    {
+      title: 'Cosmetic Dentistry',
+      description: 'Transform your smile with our cosmetic dentistry services. From professional teeth whitening to custom porcelain veneers, we can correct discoloration, chips, gaps, and misalignment. Our smile design process considers your facial features and goals to create a natural, beautiful result.',
+      image: 'https://images.pexels.com/photos/6627413/pexels-photo-6627413.jpeg',
+      imagePosition: 'right'
+    },
+    {
+      title: 'Dental Implants',
+      description: 'Replace missing teeth with dental implants that look and function like natural teeth. Our implant solutions include single tooth replacements, multi-tooth bridges, and full-arch restorations. Using 3D planning and guided surgery, we ensure precise placement and optimal outcomes.',
+      image: 'https://images.pexels.com/photos/6627447/pexels-photo-6627447.jpeg',
+      imagePosition: 'left'
+    }
+  ];
 
   const processSteps = [
     {
@@ -161,22 +161,22 @@ const detailedServices = [
   return (
     <>
       {/* NAVBAR */}
-       <nav className={`navbar ${menuOpen ? 'menu-open' : ''} ${navbarVisible ? 'visible' : ''} ${scrolled ? 'scrolled' : ''}`}>
-         <div className="nav-brand">
-           <img src="https://res.cloudinary.com/drufv7gh5/image/upload/v1777470455/a3165c8a-5cfa-41e7-a8de-9672d5e9dafa-Picsart-BackgroundRemover_bcyrnd.png" alt="Sheva Dental Care" className="logo-img" />
-         </div>
-         <div className="mobile-menu">
-            <ul className="nav-links">
-              <li><NavLink to="/" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink></li>
-              <li><NavLink to="/about" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink></li>
-              <li><NavLink to="/services" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Services</NavLink></li>
-              <li><NavLink to="/contact" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Contact</NavLink></li>
-            </ul>
-            <div className="nav-actions">
-              <a href="#book" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Book Online</a>
-              <NavLink to="/contact" className="btn btn-secondary" onClick={() => setMenuOpen(false)}>Contact Us</NavLink>
-              <a href="tel:+8801812312312" className="btn btn-tertiary" onClick={() => setMenuOpen(false)}>+8801812312312</a>
-            </div>
+      <nav className={`navbar ${menuOpen ? 'menu-open' : ''} ${navbarVisible ? 'visible' : ''} ${scrolled ? 'scrolled' : ''}`}>
+        <div className="nav-brand">
+          <img src="https://res.cloudinary.com/drufv7gh5/image/upload/v1777470455/a3165c8a-5cfa-41e7-a8de-9672d5e9dafa-Picsart-BackgroundRemover_bcyrnd.png" alt="Sheva Dental Care" className="logo-img" />
+        </div>
+        <div className="mobile-menu">
+          <ul className="nav-links">
+            <li><NavLink to="/" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink></li>
+            <li><NavLink to="/about" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink></li>
+            <li><NavLink to="/services" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Services</NavLink></li>
+            <li><NavLink to="/contact" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? 'active-link' : ''}>Contact</NavLink></li>
+          </ul>
+          <div className="nav-actions">
+            <a href="#book" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Book Online</a>
+            <NavLink to="/contact" className="btn btn-secondary" onClick={() => setMenuOpen(false)}>Contact Us</NavLink>
+            <a href="tel:+8801812312312" className="btn btn-tertiary" onClick={() => setMenuOpen(false)}>+8801812312312</a>
+          </div>
         </div>
         <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
           <span />
@@ -222,8 +222,8 @@ const detailedServices = [
       {/* DETAILED SERVICES SECTION */}
       <section className="detailed-services-section">
         {detailedServices.map((service, index) => (
-          <div 
-            className={`detailed-service white-screen-section ${service.imagePosition === 'right' ? 'image-right' : ''}`} 
+          <div
+            className={`detailed-service white-screen-section ${service.imagePosition === 'right' ? 'image-right' : ''}`}
             key={index}
           >
             <div className="detailed-service-content">
@@ -235,9 +235,9 @@ const detailedServices = [
                 <p className="detailed-service-text">{service.description}</p>
               </div>
               <div className="detailed-service-image">
-                <img 
-                  src={service.image} 
-                  alt={service.title} 
+                <img
+                  src={service.image}
+                  alt={service.title}
                   loading="lazy"
                 />
               </div>

@@ -297,7 +297,7 @@
 
   .nav-brand {
     position: absolute;
-    left: 24px;
+    left: -2px;
     top: 12px;
     transform: none;
     z-index: 11;
